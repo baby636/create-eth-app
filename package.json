@@ -91,6 +91,12 @@
     "test": "yarn run test:unit && yarn run test:integration",
     "test:integration": "jest test/integration",
     "test:unit": "jest test/unit",
-    "watch": "ncc build ./src/index.ts --out dist/ --watch"
+    "watch": "ncc build ./src/index.ts --out dist/ --watch",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true,
+  "dependencies": {
+    "@snyk/protect": "latest"
   }
 }
