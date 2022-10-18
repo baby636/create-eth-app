@@ -39,7 +39,7 @@
     "commander": "^4.1.0",
     "commitizen": "^4.2.1",
     "cross-spawn": "^7.0.3",
-    "dir-compare": "^2.3.0",
+    "dir-compare": "^3.0.0",
     "eslint": "^7.11.0",
     "eslint-config-prettier": "^6.13.0",
     "execa": "^4.0.3",
