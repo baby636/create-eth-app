@@ -37,7 +37,7 @@
     "@vercel/ncc": "^0.24.1",
     "chalk": "^3.0.0",
     "commander": "^4.1.0",
-    "commitizen": "^4.2.1",
+    "commitizen": "^4.2.4",
     "cross-spawn": "^7.0.3",
     "dir-compare": "^2.3.0",
     "eslint": "^7.11.0",
